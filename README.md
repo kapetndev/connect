@@ -1,4 +1,4 @@
-# service-core-go
+# service-core-go ![test](https://github.com/crumbandbase/service-core-go/workflows/test/badge.svg?event=push)
 
 It is now more common to see application distributed across multiple services,
 each representing a smaller subset of the wider functionality. Each service
