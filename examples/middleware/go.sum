@@ -1,0 +1,7 @@
+github.com/crumbandbase/errors v0.0.0-20210405195846-5a73b1fe583e h1:aK4KnonkSZ6wuQ7wh69dyqNtZehY4A1VGnn5PF4HQF0=
+github.com/crumbandbase/errors v0.0.0-20210405195846-5a73b1fe583e/go.mod h1:32OkMoCjDUr6/M6tyPY0KiPS1kwqdMGWRYh6hfaTZYM=
+github.com/crumbandbase/expect v0.0.0-20210406110650-e8b201a68014 h1:wwJtV20blc4rPFAjwvVwpoGBKxkED5ENNr2bXeTfwdQ=
+github.com/crumbandbase/expect v0.0.0-20210406110650-e8b201a68014/go.mod h1:S03kX64ta+qkaGhuG1LFqtq2kiCi/+234tK6zbq+Pzg=
+github.com/google/go-cmp v0.5.4 h1:L8R9j+yAqZuZjsqh/z+F1NCffTKKLShY6zXTItVIZ8M=
+github.com/google/go-cmp v0.5.4/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
