@@ -1,4 +1,4 @@
-# connect
+# connect ![test](https://github.com/kapetndev/connect/workflows/test/badge.svg?event=push)
 
 It is now more common to see application distributed across multiple services,
 each representing a smaller subset of the wider functionality. Each service
