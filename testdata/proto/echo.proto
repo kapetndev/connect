@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package echo.v1;
+
+option go_package = ".;echo_v1";
+
+service Echo {
+  rpc Echo(EchoRequest) returns (EchoResponse);
+  rpc ServerStreamingEcho(EchoRequest) returns (stream EchoResponse);
+  rpc ClientStreamingEcho(stream EchoRequest) returns (EchoResponse);
+}
+
+message EchoRequest {
+  string message = 1;
+}
+
+message EchoResponse {
+  string message = 1;
+}
