@@ -1,7 +1,21 @@
 # connect
 
-This README outlines the details of collaborating on this Go module. A short
-introduction of this module could easily go here.
+It is now more common to see application distributed across multiple services,
+each representing a smaller subset of the wider functionality. Each service
+then manages non-functional requirements such as logging, retry-logic,
+distributed tracing, request limiting, authentication, etc... In the advent of
+the service mesh, and namely
+[istio](https://istio.io/latest/docs/concepts/what-is-istio/), many of these
+requirements may be handed off to the infrastructure, reducing the boilerplate
+required to implement new services. However there are still some application
+specific functions that cannot be extracted outside of the service. Therefore
+developers remain responsible for delivering these function across,
+potentially, many codebases.
+
+This module attempts to alleviate this problem by generalising some of the
+remaining non-functional requirements often present in modern services, and
+integrating them into the Go standard library `http` package and the Google
+`grpc` package.
 
 ## Prerequisites
 
