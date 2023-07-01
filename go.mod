@@ -7,7 +7,7 @@ require (
 	github.com/kapetndev/grpctest v0.0.0-20230403132325-e4ea28b66e1f
 	golang.org/x/exp v0.0.0-20230321023759-10a507213a29
 	google.golang.org/grpc v1.54.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/protobuf v1.31.0
 )
 
 require (
